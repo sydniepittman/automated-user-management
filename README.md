@@ -62,29 +62,25 @@ This script will:
 - Add the user to the group  
 - Set the account expiration date  
 
-**Screenshot:**  
-`docs/screenshots/script-run.png`
+![Script Running](docs/screenshots/script-run.png)
 
 ### Step 4: Verify the Users
 
 Check `/etc/passwd` to confirm the users were created.  
 
-**Screenshot:**  
-`docs/screenshots/user-verification.png`
+![User Verification](docs/screenshots/user-verification.png)
 
 ### Step 5: Confirm Expiry Dates
 
 Use the `chage` command to view each user’s expiration setting.  
 
-**Screenshot:**  
-`docs/screenshots/expiry-verif.png`
+![Expiry Verification](docs/screenshots/expiry-verif.png)
 
 ### Step 6: Verify Groups
 
 Ensure the specified groups were created correctly.  
 
-**Screenshot:**  
-`docs/screenshots/groups.png`
+![Groups Created](docs/screenshots/groups.png)
 
 ---
 
